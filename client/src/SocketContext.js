@@ -49,7 +49,7 @@ const ContextProvider = ({ children }) => {
 
     peer.signal(call.signal);
 
-    connectionRef.curren = peer;
+    connectionRef.current = peer;
   };
 
   const callUser = (id) => {
